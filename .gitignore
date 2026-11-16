@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Segredos e ambiente
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.jks
+*.keystore
+local.properties
+
+# Backend (Java/Maven/Gradle)
+backend/target/
+backend/build/
+backend/.gradle/
+backend/out/
+*.class
+*.log
+hs_err_pid*
+
+# iOS / Xcode
+ios/build/
+ios/DerivedData/
+ios/.build/
+ios/Pods/
+*.xcuserstate
+xcuserdata/
+
+# Android
+android/build/
+android/app/build/
+android/.gradle/
+android/.cxx/
+android/captures/
+*.apk
+*.aab
+
+# Claude Code local
+.claude/settings.local.json
